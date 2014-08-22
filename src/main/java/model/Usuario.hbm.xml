@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Aug 22, 2014 11:50:53 AM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="model.Usuario" table="USUARIO">
+        <id name="apellido" type="java.lang.String">
+            <column name="APELLIDO" />
+            <generator class="assigned" />
+        </id>
+        <property name="nombre" type="java.lang.String">
+            <column name="NOMBRE" />
+        </property>
+        <property name="administrador" type="boolean">
+            <column name="ADMINISTRADOR" />
+        </property>
+    </class>
+</hibernate-mapping>

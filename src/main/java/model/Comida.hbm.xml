@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Aug 22, 2014 11:50:53 AM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="model.Comida" table="COMIDA">
+        <id name="id" type="java.lang.Long">
+            <column name="ID" />
+            <generator class="assigned" />
+        </id>
+        <list name="ingredientes" inverse="false" table="INGREDIENTE" lazy="true">
+            <key></key>
+            <list-index></list-index>
+            <one-to-many class="model.Ingrediente" />
+        </list>
+        <list name="aderezos" inverse="false" table="ADEREZO" lazy="true">
+            <key></key>
+            <list-index></list-index>
+            <one-to-many class="model.Aderezo" />
+        </list>
+    </class>
+</hibernate-mapping>
