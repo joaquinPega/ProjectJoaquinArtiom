@@ -14,6 +14,7 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+<<<<<<< HEAD
     <!-- Sevlet api Joaquin -->
    	<dependency>
 		<groupId>javax.servlet</groupId>
@@ -37,4 +38,10 @@
      
   </build>
   
+=======
+  </dependencies>
+  <build>
+    <finalName>WebArtiomJoaquin</finalName>
+  </build>
+>>>>>>> 80de868a5a54027a7c9693c7d41e8682d1942040
 </project>
