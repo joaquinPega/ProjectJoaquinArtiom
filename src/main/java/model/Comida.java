@@ -4,8 +4,8 @@ import java.util.List;
 
 public class Comida {
 	private int id;
-	List<Ingrediente> ingredientes;
-	List<Aderezo> aderezos;
+	private List<Ingrediente> ingredientes;
+	private List<Aderezo> aderezos;
 	
 	public Comida(){
 		

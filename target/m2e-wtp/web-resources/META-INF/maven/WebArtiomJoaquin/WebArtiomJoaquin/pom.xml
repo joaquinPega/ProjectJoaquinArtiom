@@ -24,7 +24,7 @@
 	<dependency>
     	<groupId>org.hibernate</groupId>
     	<artifactId>hibernate-core</artifactId>
-    	<version>3.5.4-Final</version>
+    	<version>4.3.6.final</version>
     </dependency>
     <dependency><!-- Hibernate uses this for login -->
             <groupId>org.slf4j</groupId>
