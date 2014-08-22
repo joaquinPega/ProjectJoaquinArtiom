@@ -14,14 +14,24 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
-<<<<<<< HEAD
     <!-- Sevlet api Joaquin -->
    	<dependency>
 		<groupId>javax.servlet</groupId>
 		<artifactId>servlet-api</artifactId>
 		<version>2.5</version>
 	</dependency>
-	
+	<!-- 	Hibernate -->
+	<dependency>
+    	<groupId>org.hibernate</groupId>
+    	<artifactId>hibernate-core</artifactId>
+    	<version>3.5.4-Final</version>
+    </dependency>
+	<!-- Mysql -->
+	<dependency>
+		<groupId>mysql</groupId>
+		<artifactId>mysql-connector-java</artifactId>
+		<version>5.1.32</version>
+	</dependency>
   </dependencies>
   <build>
   <finalName>WebArtiomJoaquin</finalName>
@@ -38,10 +48,4 @@
      
   </build>
   
-=======
-  </dependencies>
-  <build>
-    <finalName>WebArtiomJoaquin</finalName>
-  </build>
->>>>>>> 80de868a5a54027a7c9693c7d41e8682d1942040
 </project>
